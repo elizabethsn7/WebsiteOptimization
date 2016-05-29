@@ -422,8 +422,9 @@ var resizePizzas = function(size) {
   changeSliderLabel(size);
 
   // Returns the size difference to change a pizza element from one size to another. Called by changePizzaSlices(size).
+  var oldwidth = elem.offsetWidth;
   function determineDx (elem, size) {
-    var oldwidth = elem.offsetWidth;
+    
     var windowwidth = document.querySelector("#randomPizzas").offsetWidth;
     var oldsize = oldwidth / windowwidth;
 
