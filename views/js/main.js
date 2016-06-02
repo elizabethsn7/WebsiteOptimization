@@ -8,7 +8,7 @@ Built into the code, you'll find a few instances of the User Timing API
 browser console. To learn more about User Timing API, check out:
 http://www.html5rocks.com/en/tutorials/webperformance/usertiming/
 Creator:
-Elizabeth Kipp, Udacity Course Developer
+Cameron Pittman, Udacity Course Developer
 cameron *at* udacity *dot* com
 */
 
@@ -418,9 +418,8 @@ var resizePizzas = function(size) {
   changeSliderLabel(size);
 
   // Returns the size difference to change a pizza element from one size to another. Called by changePizzaSlices(size).
-  var oldwidth = elem.offsetWidth;
   function determineDx (elem, size) {
-    
+    var oldwidth = elem.offsetWidth;
     var windowwidth = document.querySelector("#randomPizzas").offsetWidth;
     var oldsize = oldwidth / windowwidth;
 
