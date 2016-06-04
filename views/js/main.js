@@ -451,7 +451,7 @@ var resizePizzas = function(size) {
       document.querySelectorAll(".randomPizzaContainer")[i].style.width = newwidth;
     }
   }
-
+//this is calling the function to run after style is calculated
   changePizzaSizes(size);
 
   // User Timing API is awesome
