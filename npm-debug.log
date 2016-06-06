@@ -1,0 +1,260 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'grunt-cli',
+1 verbose cli   'npm',
+1 verbose cli   'install',
+1 verbose cli   '–save-dev',
+1 verbose cli   'grunt',
+1 verbose cli   'touch',
+1 verbose cli   'Gruntfile.js' ]
+2 info using npm@2.15.5
+3 info using node@v4.4.5
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'grunt-cli', null ]
+7 verbose cache add spec grunt-cli
+8 silly cache add args [ 'npm', null ]
+9 verbose cache add spec npm
+10 silly cache add args [ 'install', null ]
+11 verbose cache add spec install
+12 silly cache add args [ '–save-dev', null ]
+13 verbose cache add spec –save-dev
+14 silly cache add args [ 'grunt', null ]
+15 verbose cache add spec grunt
+16 silly cache add args [ 'touch', null ]
+17 verbose cache add spec touch
+18 silly cache add args [ 'Gruntfile.js', null ]
+19 verbose cache add spec Gruntfile.js
+20 silly cache add parsed spec Result {
+20 silly cache add   raw: 'grunt-cli',
+20 silly cache add   scope: null,
+20 silly cache add   name: 'grunt-cli',
+20 silly cache add   rawSpec: '',
+20 silly cache add   spec: 'latest',
+20 silly cache add   type: 'tag' }
+21 silly addNamed grunt-cli@latest
+22 verbose addNamed "latest" is being treated as a dist-tag for grunt-cli
+23 info addNameTag [ 'grunt-cli', 'latest' ]
+24 silly mapToRegistry name grunt-cli
+25 silly mapToRegistry using default registry
+26 silly mapToRegistry registry https://registry.npmjs.org/
+27 silly mapToRegistry data Result {
+27 silly mapToRegistry   raw: 'grunt-cli',
+27 silly mapToRegistry   scope: null,
+27 silly mapToRegistry   name: 'grunt-cli',
+27 silly mapToRegistry   rawSpec: '',
+27 silly mapToRegistry   spec: 'latest',
+27 silly mapToRegistry   type: 'tag' }
+28 silly mapToRegistry uri https://registry.npmjs.org/grunt-cli
+29 verbose addNameTag registry:https://registry.npmjs.org/grunt-cli not in flight; fetching
+30 silly cache add parsed spec Result {
+30 silly cache add   raw: 'npm',
+30 silly cache add   scope: null,
+30 silly cache add   name: 'npm',
+30 silly cache add   rawSpec: '',
+30 silly cache add   spec: 'latest',
+30 silly cache add   type: 'tag' }
+31 silly addNamed npm@latest
+32 verbose addNamed "latest" is being treated as a dist-tag for npm
+33 info addNameTag [ 'npm', 'latest' ]
+34 silly mapToRegistry name npm
+35 silly mapToRegistry using default registry
+36 silly mapToRegistry registry https://registry.npmjs.org/
+37 silly mapToRegistry data Result {
+37 silly mapToRegistry   raw: 'npm',
+37 silly mapToRegistry   scope: null,
+37 silly mapToRegistry   name: 'npm',
+37 silly mapToRegistry   rawSpec: '',
+37 silly mapToRegistry   spec: 'latest',
+37 silly mapToRegistry   type: 'tag' }
+38 silly mapToRegistry uri https://registry.npmjs.org/npm
+39 verbose addNameTag registry:https://registry.npmjs.org/npm not in flight; fetching
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'install',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'install',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed install@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for install
+43 info addNameTag [ 'install', 'latest' ]
+44 silly mapToRegistry name install
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'install',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   name: 'install',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/install
+49 verbose addNameTag registry:https://registry.npmjs.org/install not in flight; fetching
+50 silly cache add parsed spec Result {
+50 silly cache add   raw: '–save-dev',
+50 silly cache add   scope: null,
+50 silly cache add   name: null,
+50 silly cache add   rawSpec: '–save-dev',
+50 silly cache add   spec: '/Users/elizabethskipp/projects/UDACITY/websiteOptimization/–save-dev',
+50 silly cache add   type: 'local' }
+51 silly cache add parsed spec Result {
+51 silly cache add   raw: 'grunt',
+51 silly cache add   scope: null,
+51 silly cache add   name: 'grunt',
+51 silly cache add   rawSpec: '',
+51 silly cache add   spec: 'latest',
+51 silly cache add   type: 'tag' }
+52 silly addNamed grunt@latest
+53 verbose addNamed "latest" is being treated as a dist-tag for grunt
+54 info addNameTag [ 'grunt', 'latest' ]
+55 silly mapToRegistry name grunt
+56 silly mapToRegistry using default registry
+57 silly mapToRegistry registry https://registry.npmjs.org/
+58 silly mapToRegistry data Result {
+58 silly mapToRegistry   raw: 'grunt',
+58 silly mapToRegistry   scope: null,
+58 silly mapToRegistry   name: 'grunt',
+58 silly mapToRegistry   rawSpec: '',
+58 silly mapToRegistry   spec: 'latest',
+58 silly mapToRegistry   type: 'tag' }
+59 silly mapToRegistry uri https://registry.npmjs.org/grunt
+60 verbose addNameTag registry:https://registry.npmjs.org/grunt not in flight; fetching
+61 silly cache add parsed spec Result {
+61 silly cache add   raw: 'touch',
+61 silly cache add   scope: null,
+61 silly cache add   name: 'touch',
+61 silly cache add   rawSpec: '',
+61 silly cache add   spec: 'latest',
+61 silly cache add   type: 'tag' }
+62 silly addNamed touch@latest
+63 verbose addNamed "latest" is being treated as a dist-tag for touch
+64 info addNameTag [ 'touch', 'latest' ]
+65 silly mapToRegistry name touch
+66 silly mapToRegistry using default registry
+67 silly mapToRegistry registry https://registry.npmjs.org/
+68 silly mapToRegistry data Result {
+68 silly mapToRegistry   raw: 'touch',
+68 silly mapToRegistry   scope: null,
+68 silly mapToRegistry   name: 'touch',
+68 silly mapToRegistry   rawSpec: '',
+68 silly mapToRegistry   spec: 'latest',
+68 silly mapToRegistry   type: 'tag' }
+69 silly mapToRegistry uri https://registry.npmjs.org/touch
+70 verbose addNameTag registry:https://registry.npmjs.org/touch not in flight; fetching
+71 silly cache add parsed spec Result {
+71 silly cache add   raw: 'Gruntfile.js',
+71 silly cache add   scope: null,
+71 silly cache add   name: 'Gruntfile.js',
+71 silly cache add   rawSpec: '',
+71 silly cache add   spec: 'latest',
+71 silly cache add   type: 'tag' }
+72 silly addNamed Gruntfile.js@latest
+73 verbose addNamed "latest" is being treated as a dist-tag for Gruntfile.js
+74 info addNameTag [ 'Gruntfile.js', 'latest' ]
+75 silly mapToRegistry name Gruntfile.js
+76 silly mapToRegistry using default registry
+77 silly mapToRegistry registry https://registry.npmjs.org/
+78 silly mapToRegistry data Result {
+78 silly mapToRegistry   raw: 'Gruntfile.js',
+78 silly mapToRegistry   scope: null,
+78 silly mapToRegistry   name: 'Gruntfile.js',
+78 silly mapToRegistry   rawSpec: '',
+78 silly mapToRegistry   spec: 'latest',
+78 silly mapToRegistry   type: 'tag' }
+79 silly mapToRegistry uri https://registry.npmjs.org/Gruntfile.js
+80 verbose addNameTag registry:https://registry.npmjs.org/Gruntfile.js not in flight; fetching
+81 error addLocal Could not install /Users/elizabethskipp/projects/UDACITY/websiteOptimization/–save-dev
+82 verbose request uri https://registry.npmjs.org/grunt
+83 verbose request no auth needed
+84 info attempt registry request try #1 at 3:58:27 PM
+85 verbose request id 714abf329a9301c6
+86 http request GET https://registry.npmjs.org/grunt
+87 verbose request uri https://registry.npmjs.org/npm
+88 verbose request no auth needed
+89 info attempt registry request try #1 at 3:58:27 PM
+90 http request GET https://registry.npmjs.org/npm
+91 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+92 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+93 verbose request uri https://registry.npmjs.org/install
+94 verbose request no auth needed
+95 info attempt registry request try #1 at 3:58:27 PM
+96 http request GET https://registry.npmjs.org/install
+97 verbose request uri https://registry.npmjs.org/Gruntfile.js
+98 verbose request no auth needed
+99 info attempt registry request try #1 at 3:58:27 PM
+100 http request GET https://registry.npmjs.org/Gruntfile.js
+101 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+102 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+103 verbose request uri https://registry.npmjs.org/touch
+104 verbose request no auth needed
+105 info attempt registry request try #1 at 3:58:27 PM
+106 http request GET https://registry.npmjs.org/touch
+107 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+108 verbose request uri https://registry.npmjs.org/grunt-cli
+109 verbose request no auth needed
+110 info attempt registry request try #1 at 3:58:27 PM
+111 verbose etag "2S0YL18LTZFJY36DO0JI4QSHL"
+112 http request GET https://registry.npmjs.org/grunt-cli
+113 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+114 info attempt registry request try #2 at 3:58:37 PM
+115 http request GET https://registry.npmjs.org/grunt
+116 info attempt registry request try #2 at 3:58:37 PM
+117 http request GET https://registry.npmjs.org/npm
+118 info attempt registry request try #2 at 3:58:37 PM
+119 http request GET https://registry.npmjs.org/install
+120 info attempt registry request try #2 at 3:58:37 PM
+121 http request GET https://registry.npmjs.org/Gruntfile.js
+122 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+123 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+124 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+125 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+126 info attempt registry request try #2 at 3:58:37 PM
+127 http request GET https://registry.npmjs.org/touch
+128 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+129 info attempt registry request try #2 at 3:58:37 PM
+130 verbose etag "2S0YL18LTZFJY36DO0JI4QSHL"
+131 http request GET https://registry.npmjs.org/grunt-cli
+132 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+133 info attempt registry request try #3 at 3:59:37 PM
+134 http request GET https://registry.npmjs.org/grunt
+135 info attempt registry request try #3 at 3:59:37 PM
+136 http request GET https://registry.npmjs.org/npm
+137 info attempt registry request try #3 at 3:59:37 PM
+138 http request GET https://registry.npmjs.org/install
+139 info attempt registry request try #3 at 3:59:37 PM
+140 http request GET https://registry.npmjs.org/Gruntfile.js
+141 info attempt registry request try #3 at 3:59:37 PM
+142 http request GET https://registry.npmjs.org/touch
+143 info attempt registry request try #3 at 3:59:37 PM
+144 verbose etag "2S0YL18LTZFJY36DO0JI4QSHL"
+145 http request GET https://registry.npmjs.org/grunt-cli
+146 silly get cb [ 304, undefined ]
+147 verbose etag https://registry.npmjs.org/grunt-cli from cache
+148 verbose get saving grunt-cli to /Users/elizabethskipp/.npm/registry.npmjs.org/grunt-cli/.cache.json
+149 verbose correctMkdir /Users/elizabethskipp/.npm correctMkdir not in flight; initializing
+150 silly addNameTag next cb for grunt-cli with tag latest
+151 silly addNamed grunt-cli@1.2.0
+152 verbose addNamed "1.2.0" is a plain semver version for grunt-cli
+153 silly cache afterAdd grunt-cli@1.2.0
+154 verbose afterAdd /Users/elizabethskipp/.npm/grunt-cli/1.2.0/package/package.json not in flight; writing
+155 verbose correctMkdir /Users/elizabethskipp/.npm correctMkdir not in flight; initializing
+156 verbose afterAdd /Users/elizabethskipp/.npm/grunt-cli/1.2.0/package/package.json written
+157 verbose stack Error: ENOENT: no such file or directory, open '/Users/elizabethskipp/projects/UDACITY/websiteOptimization/–save-dev'
+157 verbose stack     at Error (native)
+158 verbose cwd /Users/elizabethskipp/projects/UDACITY/websiteOptimization
+159 error Darwin 15.5.0
+160 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "grunt-cli" "npm" "install" "–save-dev" "grunt" "touch" "Gruntfile.js"
+161 error node v4.4.5
+162 error npm  v2.15.5
+163 error path /Users/elizabethskipp/projects/UDACITY/websiteOptimization/–save-dev
+164 error code ENOENT
+165 error errno -2
+166 error syscall open
+167 error enoent ENOENT: no such file or directory, open '/Users/elizabethskipp/projects/UDACITY/websiteOptimization/–save-dev'
+167 error enoent This is most likely not a problem with npm itself
+167 error enoent and is related to npm not being able to find a file.
+168 verbose exit [ -2, true ]
