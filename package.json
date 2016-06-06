@@ -1,0 +1,23 @@
+{
+  "name": "website-optimizatoin",
+  "version": "1.0.0",
+  "description": "This is the Original P4 currently P 25",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elizabethsn7/udportfolio.git"
+  },
+  "keywords": [
+    "ngrok",
+    "grunt"
+  ],
+  "author": "Elizabeth Kipp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elizabethsn7/udportfolio/issues"
+  },
+  "homepage": "https://github.com/elizabethsn7/udportfolio#readme"
+}
