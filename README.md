@@ -14,7 +14,7 @@ Summary of changes made to enhance optimization:
 You can find a live copy of the site, [here] (http://elizabethsn7.github.io/WebsiteOptimization/)
  
 In order to use [Grunt] (http://gruntjs.com/), you must download and install [ngrok] (https://ngrok.com/) via npm on the command line using<br> ``` npm install ngrok –save-dev</br>
-Once you have ngrok installed, you can use a task runner such as [Grunt] (http://gruntjs.com/) 
+Once you have ngrok installed, you can use a task runner such as [Grunt] (http://gruntjs.com/).<br>
 [Here] (http://www.jamescryer.com/2014/06/12/grunt-pagespeed-and-ngrok-locally-testing/) is link to more information on integrating [ngrok] (https://ngrok.com/) and [Grunt] (http://gruntjs.com/).
 
 ##Thank you for reviewing!
