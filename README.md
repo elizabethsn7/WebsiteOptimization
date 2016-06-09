@@ -11,10 +11,10 @@ Summary of changes made to enhance optimization:
 	<li>added a print media query</li>
 	<li>Adressed Forced Synchronos Layout issues in main.js by placing all of the layout in the javaScript and batching all of the style changes so that they run after the layout.</li>
 </ul>
-You can find a live copy of the site, [here] (http://elizabethsn7.github.io/WebsiteOptimization/)
+You can find a live copy of the site [here] (http://elizabethsn7.github.io/WebsiteOptimization/)
  
 In order to use [Grunt] (http://gruntjs.com/), you must download and install [ngrok] (https://ngrok.com/) via npm on the command line using<br> ``` npm install ngrok –save-dev</br>
 Once you have ngrok installed, you can use a task runner such as [Grunt] (http://gruntjs.com/).<br>
-[Here] (http://www.jamescryer.com/2014/06/12/grunt-pagespeed-and-ngrok-locally-testing/) is link to more information on integrating [ngrok] (https://ngrok.com/) and [Grunt] (http://gruntjs.com/).
+For more information on integrating [ngrok] (https://ngrok.com/) and [Grunt] (http://gruntjs.com/) click on this[link] (http://www.jamescryer.com/2014/06/12/grunt-pagespeed-and-ngrok-locally-testing/).
 
 ##Thank you for reviewing!
