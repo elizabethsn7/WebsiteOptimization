@@ -15,6 +15,6 @@ You can find a live copy of the site [here] (http://elizabethsn7.github.io/Websi
  
 In order to use [Grunt] (http://gruntjs.com/), you must download and install [ngrok] (https://ngrok.com/) via npm on the command line using<br> ``` npm install ngrok –save-dev</br>
 Once you have ngrok installed, you can use a task runner such as [Grunt] (http://gruntjs.com/).<br>
-For more information on integrating [ngrok] (https://ngrok.com/) and [Grunt] (http://gruntjs.com/) click on this[link] (http://www.jamescryer.com/2014/06/12/grunt-pagespeed-and-ngrok-locally-testing/).
+For more information on integrating [ngrok] (https://ngrok.com/) and [Grunt] (http://gruntjs.com/) click on this [link] (http://www.jamescryer.com/2014/06/12/grunt-pagespeed-and-ngrok-locally-testing/).
 
 ##Thank you for reviewing!
