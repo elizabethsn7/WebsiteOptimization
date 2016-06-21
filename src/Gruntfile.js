@@ -2,6 +2,12 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
 
     grunt.initConfig({
+        copy: {
+      generated: {
+        src: 'index.html',
+        dest: 'dist/index.html'
+      }
+    },
         uglify: {
             options: {
                 mangle: false
