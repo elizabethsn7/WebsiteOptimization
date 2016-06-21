@@ -434,7 +434,7 @@ var resizePizzas = function(size) {
     }
 
     var randomPizzas = document.querySelectorAll(".randomPizzaContainer");
-
+// simplified for loop by removing dx and newwidth variables and replacing with next line
     for (var i = 0; i < randomPizzas.length; i++) {
       randomPizzas[i].style.width = newWidth + "%";
     }
@@ -485,9 +485,12 @@ function updatePositions() {
   frame++;
   window.performance.mark("mark_start_frame");
 
+//moved this out of the for loop to stop FSL
+  var phaseOne = document.body.scrollTop / 1250;
+
   var items = document.querySelectorAll('.mover');
   for (var i = 0; i < items.length; i++) {
-    var phase = Math.sin((document.body.scrollTop / 1250) + (i % 5));
+    var phase = Math.sin((phaseOne) + (i % 5));
     items[i].style.left = items[i].basicLeft + 100 * phase + 'px';
   }
 
@@ -508,15 +511,17 @@ window.addEventListener('scroll', updatePositions);
 document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
-  for (var i = 0; i < 200; i++) {
+  for (var i = 0; i < 40; i++) {
     var elem = document.createElement('img');
     elem.className = 'mover';
+    //reduced pizza size
     elem.src = "images/pizza.png";
     elem.style.height = "100px";
     elem.style.width = "73.333px";
     elem.basicLeft = (i % cols) * s;
     elem.style.top = (Math.floor(i / cols) * s) + 'px';
-    document.querySelector("#movingPizzas1").appendChild(elem);
+    //got rid of expensive querySelector and added getElementById
+    document.getElementById("movingPizzas1").appendChild(elem);
   }
   updatePositions();
 });
